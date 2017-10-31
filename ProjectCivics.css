@@ -1,0 +1,19 @@
+body{
+  background-color: #f5f5dc;
+}
+
+h1{
+  font-family: 'Merriweather', Gerogia, serif;
+  text-align: center;
+}
+
+h4{
+  font-style: italic;
+  text-align: center;
+}
+
+img{
+  display: block;
+  margin: auto;
+
+}

@@ -43,7 +43,27 @@ img{
   display: none;
 }
 
-@media screen and (max-width: 600px){
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+@media screen and (max-width: 1000px){
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -51,7 +71,7 @@ img{
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;

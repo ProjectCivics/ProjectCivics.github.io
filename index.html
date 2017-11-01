@@ -10,6 +10,24 @@
       <image src ="https://projectcivics.files.wordpress.com/2017/06/cropped-pclogo_21.png" alt ="Logo" align ="center"></image>
       <h1>Project Civics</h1>
       <h4>-Democracy Declassified-</h4>
-
+      <div class="topnav" id="topnav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#govmap">GovMap</a>
+        <a href="#newsblog">News Blog</a>
+        <a href="#5stepvoter">5stepvoter</a>
+        <a href="#glossary">Glossary</a>
+        <a href="#javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
+      <script>
+        function navBar() {
+          var x = document.getElementById('topnav');
+          if (x.className === "topnav") {
+              x.className += " responsive";
+          } else {
+              x.className = "topnav";
+            }
+          }
+      </script>
     </body>
   </html>

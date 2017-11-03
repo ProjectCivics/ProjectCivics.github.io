@@ -1,31 +1,48 @@
-body{
-  background-color: #f5f5dc;
+body {
+  background-color: #FFFFFF;
 }
 
-h1{
+h1 {
   font-family: 'Merriweather', Gerogia, serif;
   text-align: center;
 }
 
-h4{
+h2 {
+  font-family: 'Merriweather', Gerogia, serif;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Merriweather', Gerogia, serif;
+  text-align: center;
+}
+
+h4 {
   font-style: italic;
   text-align: center;
 }
 
-img{
+p {
+    font-family: 'Merriweather', Gerogia, serif;
+    font-size: 20px;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
+img {
   display: block;
   margin: auto;
 
 }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-left: 498px;
-}
-
-li {
-  float: left;
 }
 
 li a {
@@ -39,6 +56,14 @@ li a {
 .topnav {
   background-color: #333;
   overflow: hidden;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav ul {
+  padding-left: 498px;
 }
 
 .topnav a {
@@ -69,6 +94,7 @@ li a {
   fill: #fff;
   stroke: steelblue;
   stroke-width: 1.5px;
+  padding-top: 300px;
 }
 
 .node text {

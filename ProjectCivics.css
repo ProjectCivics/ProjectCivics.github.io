@@ -26,11 +26,10 @@ p {
     font-family: 'Merriweather', Gerogia, serif;
     font-size: 20px;
     display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 400px;
+    margin-left: 400px;
 }
 
 img {
